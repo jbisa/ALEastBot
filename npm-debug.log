@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'zlib' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json application-name@0.0.1 No description
+6 warn package.json application-name@0.0.1 No repository field.
+7 warn package.json application-name@0.0.1 No README data
+8 silly cache add args [ 'zlib', null ]
+9 verbose cache add spec zlib
+10 silly cache add parsed spec { raw: 'zlib',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'zlib',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed zlib@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'zlib', range: '*', hasData: false }
+15 silly mapToRegistry name zlib
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/zlib
+19 verbose addNameRange registry:https://registry.npmjs.org/zlib not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/zlib
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 16:09:25
+23 verbose request id 2118ffd48af1ac85
+24 verbose etag "EBQNZSBGN9EL34IT3BLYCYHQA"
+25 http request GET https://registry.npmjs.org/zlib
+26 http 304 https://registry.npmjs.org/zlib
+27 silly get cb [ 304,
+27 silly get   { date: 'Sun, 12 Apr 2015 20:09:25 GMT',
+27 silly get     server: 'Apache',
+27 silly get     via: '1.1 varnish',
+27 silly get     'last-modified': 'Sun, 12 Apr 2015 20:09:25 GMT',
+27 silly get     'cache-control': 'max-age=60',
+27 silly get     etag: '"EBQNZSBGN9EL34IT3BLYCYHQA"',
+27 silly get     age: '0',
+27 silly get     'x-served-by': 'cache-jfk1035-JFK',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1428869365.866080,VS0,VE86',
+27 silly get     vary: 'Accept',
+27 silly get     'content-length': '0',
+27 silly get     'keep-alive': 'timeout=10, max=50',
+27 silly get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/zlib from cache
+29 verbose get saving zlib to /Users/jaybisa/.npm/registry.npmjs.org/zlib/.cache.json
+30 silly addNameRange number 2 { name: 'zlib', range: '*', hasData: true }
+31 silly addNameRange versions [ 'zlib',
+31 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+32 verbose addNamed zlib@1.0.5
+33 silly addNamed semver.valid 1.0.5
+34 silly addNamed semver.validRange 1.0.5
+35 silly cache afterAdd zlib@1.0.5
+36 verbose afterAdd /Users/jaybisa/.npm/zlib/1.0.5/package/package.json not in flight; writing
+37 verbose afterAdd /Users/jaybisa/.npm/zlib/1.0.5/package/package.json written
+38 silly install resolved [ { name: 'zlib',
+38 silly install resolved     description: 'Simple, synchronous deflate/inflate for buffers',
+38 silly install resolved     version: '1.0.5',
+38 silly install resolved     homepage: 'https://github.com/kkaefer/node-zlib',
+38 silly install resolved     author: { name: 'Konstantin Käfer', email: 'kkaefer@gmail.com' },
+38 silly install resolved     repository: { type: 'git', url: 'git://github.com/kkaefer/node-zlib.git' },
+38 silly install resolved     engines: { node: '>=0.2.0' },
+38 silly install resolved     licenses: [ [Object] ],
+38 silly install resolved     main: './lib/zlib',
+38 silly install resolved     _npmJsonOpts:
+38 silly install resolved      { file: '/Users/kkaefer/.npm/zlib/1.0.5/package/package.json',
+38 silly install resolved        contributors: false,
+38 silly install resolved        serverjs: false,
+38 silly install resolved        wscript: true },
+38 silly install resolved     _id: 'zlib@1.0.5',
+38 silly install resolved     scripts: { preinstall: 'node-waf clean || true; node-waf configure build' },
+38 silly install resolved     dependencies: {},
+38 silly install resolved     devDependencies: {},
+38 silly install resolved     _engineSupported: true,
+38 silly install resolved     _npmVersion: '1.0.23',
+38 silly install resolved     _nodeVersion: 'v0.4.9',
+38 silly install resolved     _defaultsLoaded: true,
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz' },
+38 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+38 silly install resolved     directories: {},
+38 silly install resolved     _shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+38 silly install resolved     _from: 'zlib@*',
+38 silly install resolved     bugs: { url: 'https://github.com/kkaefer/node-zlib/issues' },
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install zlib@1.0.5 into /Users/jaybisa/WebstormProjects/TwitterBot
+40 info installOne zlib@1.0.5
+41 verbose installOne of zlib to /Users/jaybisa/WebstormProjects/TwitterBot not in flight; installing
+42 verbose lock using /Users/jaybisa/.npm/_locks/zlib-68969dd5eb3837af.lock for /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+43 silly install write writing zlib 1.0.5 to /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+44 silly cache addNamed cb zlib@1.0.5
+45 verbose unbuild node_modules/zlib
+46 verbose gentlyRm vacuuming /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+47 verbose tar unpack /Users/jaybisa/.npm/zlib/1.0.5/package.tgz
+48 verbose tar unpacking to /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+49 verbose gentlyRm vacuuming /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry .gitignore
+52 silly gunzTarPerm extractEntry configure
+53 silly gunzTarPerm extractEntry index.js
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm extractEntry Makefile
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry wscript
+59 silly gunzTarPerm extractEntry lib/zlib.js
+60 silly gunzTarPerm extractEntry src/node-zlib.cc
+61 silly gunzTarPerm extractEntry test/deflate.test.js
+62 silly gunzTarPerm extractEntry test/inflate.test.js
+63 info preinstall zlib@1.0.5
+64 verbose unsafe-perm in lifecycle true
+65 info zlib@1.0.5 Failed to exec preinstall script
+66 verbose unlock done using /Users/jaybisa/.npm/_locks/zlib-68969dd5eb3837af.lock for /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+67 verbose stack Error: zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+67 verbose stack Exit status 127
+67 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+67 verbose stack     at EventEmitter.emit (events.js:110:17)
+67 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+67 verbose stack     at ChildProcess.emit (events.js:110:17)
+67 verbose stack     at maybeClose (child_process.js:1008:16)
+67 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+68 verbose pkgid zlib@1.0.5
+69 verbose cwd /Users/jaybisa/WebstormProjects/TwitterBot
+70 error Darwin 14.1.0
+71 error argv "node" "/usr/local/bin/npm" "install" "zlib"
+72 error node v0.12.0
+73 error npm  v2.5.1
+74 error code ELIFECYCLE
+75 error zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+75 error Exit status 127
+76 error Failed at the zlib@1.0.5 preinstall script 'node-waf clean || true; node-waf configure build'.
+76 error This is most likely a problem with the zlib package,
+76 error not with npm itself.
+76 error Tell the author that this fails on your system:
+76 error     node-waf clean || true; node-waf configure build
+76 error You can get their info via:
+76 error     npm owner ls zlib
+76 error There is likely additional logging output above.
+77 verbose exit [ 1, true ]
+78 verbose unbuild node_modules/zlib
+79 info preuninstall zlib@1.0.5
+80 info uninstall zlib@1.0.5
+81 verbose unbuild rmStuff zlib@1.0.5 from /Users/jaybisa/WebstormProjects/TwitterBot/node_modules
+82 info postuninstall zlib@1.0.5
+83 verbose gentlyRm vacuuming /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+84 silly gentlyRm purging /Users/jaybisa/WebstormProjects/TwitterBot/node_modules/zlib
+85 silly gentlyRm quitting because other entries in /Users/jaybisa/WebstormProjects/TwitterBot/node_modules
