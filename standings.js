@@ -1,4 +1,10 @@
-"use strict";
+/**
+ * Get AL East standings for a given date via https://erikberg.com/
+ *
+ * @type {exports}
+ */
+
+
 var https = require('https');
 var fs = require('fs');
 var moment = require('moment-timezone');
@@ -92,13 +98,6 @@ function printResults(content) {
 
     standings.standing.forEach(function (standing) {
         if (standing.conference == "AL" && standing.division == "E") {
-            /*
-            process.stdout.write(sprintf("%12s %12s %-12s\n",
-                standing.ordinal_rank,
-                standing.first_name,
-                standing.last_name));
-             */
-
             console.log(standing.ordinal_rank + " " + standing.first_name + " " + standing.last_name);
         }
     });

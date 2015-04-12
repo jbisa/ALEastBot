@@ -1,3 +1,8 @@
+/**
+ * Get all scheduled MLB games for a given date via https://erikberg.com/
+ *
+ */
+
 "use strict";
 var https = require('https');
 var fs = require('fs');
